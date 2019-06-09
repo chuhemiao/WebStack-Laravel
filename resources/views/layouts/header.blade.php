@@ -6,8 +6,8 @@
     <title>{{ env('APP_NAME') }}</title>
     <meta name="keywords" content="">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="{{ asset('img/favicon.png') }}">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
+    <link rel="shortcut icon" href="{{ asset('img/favicon.ico') }}">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic">
     <link rel="stylesheet" href="{{ mix('css/app.css') }}">
     <script src="{{ mix('js/app.js') }}"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -17,14 +17,14 @@
     <![endif]-->
     <!-- / FB Open Graph -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="http://www.webstack.cc/">
-    <meta property="og:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta property="og:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,交互设计师网址导航,www.webstack.cc">
-    <meta property="og:image" content="{{ asset('img/webstack_banner_cn.png') }}">
-    <meta property="og:site_name" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。www.webstack.cc">
+    <meta property="og:url" content="https://my.bsatoshi.com/">
+    <meta property="og:title" content="Bsatoshi - 币聪区块链导航,国内外区块链开发和炒币最全的导航,my.bsatoshi.com">
+    <meta property="og:description" content="币聪,币聪学院,币聪区块链导航,区块链技术,区块链开发,区块链挖矿,比特币挖矿,ipfs,filecoin,go语言开发,dapp开发,eos开发，ada开发,以太坊开发,atom跨链开发,区块链跨链开发,区块链入门,区块链学习路线,币聪token,币聪财经,币聪区块链,my.bsatoshi.com">
+    <meta property="og:image" content="https://cdn.bsatoshi.com/2019/06/09/wallhaven-579097.png">
+    <meta property="og:site_name" content="Bsatoshi - 币聪区块链导航,国内外区块链开发和炒币最全的导航">
     <!-- / Twitter Cards -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="WebStack - 收集国内外优秀设计网站、UI设计资源网站、灵感创意网站、素材资源网站，定时更新分享优质产品设计书签。www.webstack.cc">
-    <meta name="twitter:description" content="UI设计,UI设计素材,设计导航,网址导航,设计资源,创意导航,创意网站导航,设计师网址大全,设计素材大全,设计师导航,UI设计资源,优秀UI设计欣赏,设计师导航,设计师网址大全,设计师网址导航,产品经理网址导航,交互设计师网址导航,www.webstack.cc">
-    <meta property="og:image" content="{{ asset('img/webstack_banner_cn.png') }}">
+    <meta name="twitter:title" content="Bsatoshi - 币聪区块链导航,国内外区块链开发和炒币最全的导航,my.bsatoshi.com">
+    <meta name="twitter:description" content="币聪,币聪学院,币聪区块链导航,区块链技术,区块链开发,区块链挖矿,比特币挖矿,ipfs,filecoin,go语言开发,dapp开发,eos开发，ada开发,以太坊开发,atom跨链开发,区块链跨链开发,区块链入门,区块链学习路线,币聪token,币聪财经,币聪区块链,my.bsatoshi.com">
+    <meta property="og:image" content="https://cdn.bsatoshi.com/2019/06/09/wallhaven-579097.png">
 </head>
