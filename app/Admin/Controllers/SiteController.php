@@ -82,7 +82,7 @@ class SiteController extends Controller
         $grid->id('ID');
         $grid->column('category.title', '分类');
         $grid->title('标题');
-        $grid->thumb('图标')->gallery(['width' => 25, 'height' => 25]);
+        $grid->thumb('图标')->gallery();
         $grid->describe('描述')->limit(40);
         $grid->url('地址');
 
