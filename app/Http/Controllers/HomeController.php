@@ -24,6 +24,8 @@ class HomeController extends Controller
 
         header('Access-Control-Allow-Origin:*');
 
+        $type = $_GET['type'] ?  $_GET['type'] : 0;
+
         $ret_data =    Category::with('children', 'sites')->orderBy('order')->get();
 
         $ret_datas =   json_decode(json_encode($ret_data),true);
@@ -32,7 +34,7 @@ class HomeController extends Controller
                 $ret_datas[$k]['sites'][$key]['thumb']  = 'https://my.bsatoshi.com/'.$value['thumb'];
             }
         }
-        return $ret_datas;
+        return $ret_datas[$type]['sites'];
 
     }
 }
