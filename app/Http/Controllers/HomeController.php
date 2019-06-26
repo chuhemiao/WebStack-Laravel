@@ -18,4 +18,14 @@ class HomeController extends Controller
     {
         return view('about');
     }
+
+    public function apiData()
+    {
+
+        header('Access-Control-Allow-Origin:*');
+
+        $ret_data =    Category::with('children', 'sites')->orderBy('order')->get();
+        return $ret_data;
+
+    }
 }
