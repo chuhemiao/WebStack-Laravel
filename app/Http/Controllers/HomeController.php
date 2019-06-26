@@ -25,7 +25,14 @@ class HomeController extends Controller
         header('Access-Control-Allow-Origin:*');
 
         $ret_data =    Category::with('children', 'sites')->orderBy('order')->get();
-        return $ret_data;
+
+        $ret_datas =   json_decode(json_encode($ret_data),true);
+        foreach ($ret_datas as $k => $v){
+            foreach ($v['sites'] as $key => $value){
+                $ret_datas[$k]['sites'][$key]['thumb']  = 'https://my.bsatoshi.com/'.$value['thumb'];
+            }
+        }
+        return $ret_datas;
 
     }
 }
