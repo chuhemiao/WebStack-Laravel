@@ -31,7 +31,7 @@ class HomeController extends Controller
         $ret_datas =   json_decode(json_encode($ret_data),true);
         foreach ($ret_datas as $k => $v){
             foreach ($v['sites'] as $key => $value){
-                $ret_datas[$k]['sites'][$key]['thumb']  = 'https://my.bsatoshi.com/'.$value['thumb'];
+                $ret_datas[$k]['sites'][$key]['thumb']  = 'https://my.bsatoshi.com/uploads/'.$value['thumb'];
             }
         }
         return $ret_datas[$type]['sites'];
