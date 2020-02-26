@@ -36,6 +36,7 @@
                     <div class="footer-text">
                         &copy; 2019
                         <a href="/"><strong>Bsatoshi</strong></a>
+                        <a href="http://www.beian.miit.gov.cn/"><strong>京ICP备15026980号</strong></a>
                         <!--  - Purchase for only <strong>23$</strong> -->
                     </div>
                     <!-- Go to Top Link, just add rel="go-top" to any link to add this functionality -->
